@@ -5,7 +5,11 @@
  */
 package mx.com.develop.sesion8;
 
+import mx.com.develop.sesion15.NewClass;
+
 public class SentControl {
+    
+    private String Nombre;
 
     public static void main(String[] args) {
 //        test1();
@@ -13,10 +17,12 @@ public class SentControl {
 //        test2();
 //        System.out.println(test3());
 //        test4();
-        test5();
+//        new SentControl().test5();
+//NewClass.newClassMethod();
+           test5();
     }
 
-    public static void test5() {
+    private static void test5() {
         int x = 10;
         for (int i = x; i > 0; i--) {
             System.out.println("x: " + x);
