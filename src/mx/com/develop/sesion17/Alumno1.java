@@ -15,9 +15,9 @@ public class Alumno1 {
         System.out.println("Hola");
     }
 
-    static Alumno1 creaAlumno() {
-        
-        //logica previa
-        return new Alumno1();
-    }
+//    static Alumno1 creaAlumno(AlgunaClase  x) {
+//        x.verifivarMayorEdad();
+//        //logica previa
+//        return new Alumno1();
+//    }
 }

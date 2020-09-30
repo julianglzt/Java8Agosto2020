@@ -14,7 +14,7 @@ public class Alumno {
         Alumno nuevo = new Alumno();
         Alumno nuevo2 = new Alumno("Pedro");
         Alumno nuevo3 = new Alumno("Pedro", "Paramo");
-        Alumno1 alumno1 = Alumno1.creaAlumno();
+//        Alumno1 alumno1 = Alumno1.creaAlumno();
     }
 
     public Alumno(String nombre, String apellido) {
