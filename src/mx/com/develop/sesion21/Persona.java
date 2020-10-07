@@ -5,7 +5,9 @@
  */
 package mx.com.develop.sesion21;
 
-public abstract class Persona {
+import mx.com.develop.sesion22.Herencia;
+
+public abstract class Persona implements Herencia{
 
     abstract String getNombre();
 

@@ -3,29 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mx.com.develop.sesion21;
+package mx.com.develop.sesion22;
 
-public class AlumnoIntercambio extends Alumno {
-
-//    @Override
-//    String getNombre() {
-//        return "Alumno intercambio";
-//    }
-
-    @Override
-    public String getMatricula() {
-        return "Matricula";
-    }
-
-    @Override
-    public String getApellido() {
-        return "Apellido";
-    }
-
-    @Override
-    public void saludo() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+public class ConcretaInterfaz implements Herencia {
+    
+//    int PROF = 12;
+//    final static int PROF = 12;
+    public static final int PROF = 12;
 
     @Override
     public void evaluo() {
@@ -56,4 +40,15 @@ public class AlumnoIntercambio extends Alumno {
     public void reprobado() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+    @Override
+    public void saludo() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    @Override
+    public void saludo1() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }
